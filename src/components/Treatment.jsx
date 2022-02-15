@@ -15,17 +15,14 @@ const Treatment = () => {
                     <Box>
                         <Typography variant='h3' color="#3A4256" sx={{ fontWeight: "500" }}>Exceptional Dental
                             <br />Care, on Your Terms</Typography>
-                        <Typography sx={{ my: 5, py: 3, lineHeight: 2.2, letterSpacing: .2 }} color="gray" variant="body1">It is a long established fact that a reader will be distracted
+                        <Typography sx={{ my: 5, py: 3, lineHeight: 2.2 }} color="gray" variant="body1">It is a long established fact that a reader will be distracted
                             by the readable content of a page when looking at its
                             layout. The point of using Lorem Ipsumis that it has
                             a more-or-less normal distribution of letters,as opposed
                             to using ‘Content here, content here’, making it look like
                             readable English. Many desktop publishing packages
                             and web page
-                            layout. The point of using Lorem Ipsumis that it has
-                            a more-or-less normal distribution of letters,as opposed
-                            to using ‘Content here, content here’, making it look like
-                            readable English. </Typography>
+                            layout.  </Typography>
                         <MuiButton>Learn More</MuiButton>
                     </Box>
                 </Grid>

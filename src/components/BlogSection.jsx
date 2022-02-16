@@ -24,12 +24,12 @@ const BlogSection = () => {
                         <Box style={{ position: "absolute", top: 0, bottom: 0, right: 0, zIndex: 2 }}>
                             <svg fill="#89dfc8a9" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" /></svg>
                         </Box>
-                        <Box sx={{ position: "absolute", height: "100%", top: 0, left: 0, display: "flex", flexDirection: "column", zIndex: 3, p: 5, alignItems: "flex-start", justifyContent: "space-between" }}>
+                        <Box sx={{ position: "relative", height: { md: "100%", xs: "350px" }, top: 0, left: 0, display: "flex", flexDirection: "column", zIndex: 3, p: 5, alignItems: "flex-start", justifyContent: "space-between" }}>
                             <Box>
                                 <Typography sx={{ fontWeight: "bold", color: "#fff" }} variant="subtitle1"> {blogData[0].name} </Typography>
                                 <Typography color="#fff" variant="subtitle1">22 August, 2019</Typography>
                             </Box>
-                            <Typography color="white" variant="h5">CheckOut At Leat a Doctor in a year for your teeth</Typography>
+                            <Typography color="white" variant="h5">Check out at Least a Doctor in a year for your teeth</Typography>
                             <Box >
                                 <ArrowRightAltIcon sx={{ fontSize: "30px", cursor: "pointer" }}></ArrowRightAltIcon>
                             </Box>

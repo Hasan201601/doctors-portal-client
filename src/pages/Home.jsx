@@ -1,6 +1,8 @@
 import React from 'react';
 import Appointment from '../components/Appointment';
-import Blog from '../components/Blog';
+import BlogSection from '../components/BlogSection';
+import Contact from '../components/Contact';
+import Doctors from '../components/Doctors';
 import Header from '../components/header';
 import InfoCard from '../components/InfoCard';
 import Intro from '../components/Intro';
@@ -18,7 +20,9 @@ const Home = () => {
             <Treatment></Treatment>
             <Appointment></Appointment>
             <Testimonial></Testimonial>
-            <Blog></Blog>
+            <BlogSection></BlogSection>
+            <Doctors></Doctors>
+            <Contact></Contact>
         </div>
     );
 };

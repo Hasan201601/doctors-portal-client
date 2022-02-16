@@ -6,7 +6,9 @@ import cavity from "../images/cavity.png";
 import whitening from "../images/whitening.png";
 import person1 from "../images/people-1.png"
 import person2 from "../images/people-2.png"
-import person3 from "../images/people-3.png"
+import person3 from "../images/people-3.png";
+import doctor from "../images/doctor-small.png"
+
 export const infoData = [
     {
         title: "Opening Hours",
@@ -70,15 +72,36 @@ export const testimonialData = [
 
 export const blogData = [
     {
-        review: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using ‘Content here",
+        review: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point ",
         state: "California",
-        name: "Winson Harry",
+        title: "2 times of brush in a day can keep you healthy",
+        name: "Dr. Caudi",
+        date: "15 May, 2020",
         image: person1
     },
     {
-        review: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using ‘Content here",
+        review: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point ",
         state: "California",
-        name: "Winson Harry",
-        image: person2
+        title: "The tooth cancer is taking a challenge",
+        name: "Dr. Sarah Mitchell",
+        date: "20 June,2020",
+        image: person3
     }
+]
+export const doctorData = [
+    {
+        name: "Dr. Caudi",
+        phone: "+61 452 200 126",
+        image: doctor
+    },
+    {
+        name: "Dr. Caudi",
+        phone: "+61 452 200 126",
+        image: doctor
+    },
+    {
+        name: "Dr. Caudi",
+        phone: "+61 452 200 126",
+        image: doctor
+    },
 ]

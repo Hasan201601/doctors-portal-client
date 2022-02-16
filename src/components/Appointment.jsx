@@ -14,7 +14,7 @@ const useStyle = makeStyles({
         objectFit: "cover",
         backgroundPosition: "center",
         position: "relative",
-        margin: "200px 0",
+        margin: "150px 0",
     },
     bg: {
         backgroundColor: "#3a4256dc",
@@ -46,7 +46,7 @@ const Appointment = () => {
             <div className={child}>
                 <Container>
                     <Grid container spacing={4} sx={{ alignItems: "center" }}>
-                        <Grid item xs={12} sm={12} md={5} lg={5} >
+                        <Grid item sx={{ display: { lg: "block", xs: "none" } }} xs={12} sm={12} md={5} lg={5} >
                             <img src={doctor} style={{ width: "100%", marginTop: -85 }} alt="" />
                         </Grid>
                         <Grid item xs={12} sm={12} md={7} lg={7} >

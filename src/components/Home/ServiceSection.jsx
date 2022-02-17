@@ -1,6 +1,6 @@
 import { Container, Grid, Paper, Typography } from '@mui/material';
 import React from 'react';
-import { serviceData } from '../Data/Data';
+import { serviceData } from '../../Data/Data';
 
 const ServiceSection = () => {
     return (

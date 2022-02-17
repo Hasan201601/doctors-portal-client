@@ -1,6 +1,6 @@
 import { Container, Grid, Paper, Typography } from '@mui/material';
 import React from 'react';
-import { infoData } from '../Data/Data';
+import { infoData } from '../../Data/Data';
 
 const InfoCard = () => {
     return (

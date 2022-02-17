@@ -1,10 +1,11 @@
 
 import React from 'react';
-import Chair from "../images/chair.png";
-import bg from "../images/bg.png"
+import Chair from "../../images/chair.png";
+import bg from "../../images/bg.png"
 import { Grid, Typography } from '@mui/material';
-import MuiButton from '../StyledComponents/MuiButton';
-import MuiContainer from '../StyledComponents/MuiContainer';
+import MuiButton from '../../StyledComponents/MuiButton';
+import MuiContainer from '../../StyledComponents/MuiContainer';
+import Header from '../Shared/header';
 
 const intro = {
     minHeight: 500,
@@ -31,9 +32,9 @@ const Intro = () => {
 
     return (
         <div style={intro}>
-
             <div style={vertical}></div>
             <MuiContainer>
+
                 <Grid container spacing={2} sx={{ alignItems: "center" }} >
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <Typography variant="h4"

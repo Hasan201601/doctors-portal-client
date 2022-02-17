@@ -1,14 +1,15 @@
-import React from 'react';
-import Appointment from '../components/Appointment';
-import BlogSection from '../components/BlogSection';
-import Contact from '../components/Contact';
-import Doctors from '../components/Doctors';
-import Header from '../components/header';
-import InfoCard from '../components/InfoCard';
-import Intro from '../components/Intro';
-import ServiceSection from '../components/ServiceSection';
-import Testimonial from '../components/Testimonial';
-import Treatment from '../components/Treatment';
+import Appointment from "../components/Home/Appointment";
+import BlogSection from "../components/Home/BlogSection";
+import Contact from "../components/Home/Contact";
+import Doctors from "../components/Home/Doctors";
+import InfoCard from "../components/Home/InfoCard";
+import Intro from "../components/Home/Intro";
+import ServiceSection from "../components/Home/ServiceSection";
+import Testimonial from "../components/Home/Testimonial";
+import Treatment from "../components/Home/Treatment";
+import Footer from "../components/Shared/Footer";
+import Header from "../components/Shared/header";
+
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <BlogSection></BlogSection>
             <Doctors></Doctors>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

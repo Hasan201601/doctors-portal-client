@@ -1,8 +1,8 @@
 import { Container, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
-import treatment from "../images/treatment.png"
-import MuiButton from '../StyledComponents/MuiButton';
+import treatment from "../../images/treatment.png"
+import MuiButton from '../../StyledComponents/MuiButton';
 
 const Treatment = () => {
     return (

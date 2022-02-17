@@ -1,7 +1,7 @@
 import { Container, Grid, Paper, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
-import { testimonialData } from '../Data/Data';
+import { testimonialData } from '../../Data/Data';
 
 const Testimonial = () => {
     return (

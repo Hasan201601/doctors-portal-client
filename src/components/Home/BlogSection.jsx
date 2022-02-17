@@ -1,7 +1,7 @@
 import { Container, Grid, Paper, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
-import { blogData } from '../Data/Data';
+import { blogData } from '../../Data/Data';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const paperStyle = {
     background: "linear-gradient(90deg,#19D3AE,#0FCFEC)",

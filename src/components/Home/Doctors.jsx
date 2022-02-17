@@ -1,6 +1,6 @@
 import { Container, Grid, Paper, Typography } from '@mui/material';
 import React from 'react';
-import { doctorData } from '../Data/Data';
+import { doctorData } from '../../Data/Data';
 import PhoneIcon from '@mui/icons-material/Phone';
 import { Box } from '@mui/system';
 

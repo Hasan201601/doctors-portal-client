@@ -35,7 +35,7 @@ export default function Header() {
                     <Link style={liStyle} to="/"><li >Blogs</li></Link>
                     <Link style={liStyle} to="/"><li >Login</li></Link>
                     <Link style={liStyle} to="/"><li >Register</li></Link>
-                    <Link style={liStyle} to="/"><li >Contact Us</li></Link>
+                    <Link style={liStyle} to="/dashboard"><li >Dashboard</li></Link>
                 </ul>
             </Container>
         </Box>
